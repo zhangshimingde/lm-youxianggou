@@ -16,17 +16,17 @@ export default [
       meta: {
         icon: '',
         keepAlive: true,
-        title: 'login'
+        title: '登录'
       }
     },
-    {
-      path: '/index',
-      name: 'index',
-      component: () => import('@/views/index/index.vue'),
-      meta: {
-        icon: '',
-        keepAlive: true,
-        title: 'index'
-      }
-    }
+    // {
+    //   path: '/index',
+    //   name: 'index',
+    //   component: () => import('@/views/index/index.vue'),
+    //   meta: {
+    //     icon: '',
+    //     keepAlive: true,
+    //     title: 'index'
+    //   }
+    // }
   ]
